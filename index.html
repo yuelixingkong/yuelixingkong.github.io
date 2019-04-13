@@ -3,8 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+
+        *{
+
+            padding: 0;
+
+            margin: 0;
+
+        }
+
+        div{ font-size:12px; color:#000; text-align:left; font-weight:700;}
+
+    </style>
 </head>
+
 <body>
-<h1>Hello 行不行</h1>
+<script type="text/javascript" src="jquery-3.4.0.min.js"></script>
+
+<script type="text/javascript" src="firework.js"></script>
+<script type="text/javascript">
+    $(function(){
+
+        $("#example").fireworks({
+
+            width: "100%",
+
+            height: "100%"
+
+        });
+
+    });
+
+</script>
+<div>html5+canvas制作烟花动画特效</div>
+
+<div id="example"></div>
+
+
+</body>
 </body>
 </html>
